@@ -12,6 +12,7 @@ namespace FishDex.Pages
         {
             _context = context;
             FishList = new List<Fish>();
+            LakeList = new List<Lake>();
         }
 
         public List<Fish> FishList { get; set; }
@@ -19,6 +20,8 @@ namespace FishDex.Pages
         public void OnGet()
         {
             FishList = _context.Fish.ToList();
+            lakeList = _context.Lake.ToList();
         }
+        
     }
 }

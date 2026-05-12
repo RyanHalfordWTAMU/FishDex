@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FishDex")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ca9ee7c790393e4a100daa52747bb87eac6d21d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ffa2c2dd4439a03884fc87f7975e1bae72a17360")]
 [assembly: System.Reflection.AssemblyProductAttribute("FishDex")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FishDex")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
