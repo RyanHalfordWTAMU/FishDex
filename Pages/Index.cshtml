@@ -29,26 +29,23 @@
     </tbody>
 </table>
 <table class="table">
-    <a asp-page="addCatch">addCatch</a>
+    <a asp-page="addLake">Add Lake</a>
     <thead>
         <tr>
-            <th>Species</th>
-            <th>Bait</th>
-            <th>Weight lb</th>
+            <th>Name</th>
+            <th>Location</th>
             <th>Actions</th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var fish in Model.FishList)
+        @foreach (var lake in Model.LakeList)
         {
             <tr>
-                <td>@fish.Species</td>
-                <td>@fish.Bait</td>
-                <td>@fish.weight</td>
+                <td>@lake.lakeName</td>
+                <td>@lake.NearestTown</td>
                 <td>
-                    <a asp-page="./deleteCatch" asp-route-id="@fish.Id">Delete</a>
+                    <a asp-page="./deleteLake" asp-route-id="@lake.Id">Delete</a>
                 </td>
             </tr>
         }
     </tbody>
-</table>

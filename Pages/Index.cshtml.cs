@@ -16,11 +16,12 @@ namespace FishDex.Pages
         }
 
         public List<Fish> FishList { get; set; }
+        public List<Lake> LakeList { get; set; }
 
         public void OnGet()
         {
             FishList = _context.Fish.ToList();
-            lakeList = _context.Lake.ToList();
+            LakeList = _context.Lake.ToList();
         }
         
     }

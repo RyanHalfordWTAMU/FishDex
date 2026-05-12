@@ -14,7 +14,7 @@ namespace FishDex.Pages;
         }
 
         [BindProperty]
-        public Fish NewFish { get; set; }
+        public Fish? NewFish { get; set; }
 
         public void OnGet()
         {
@@ -27,8 +27,11 @@ namespace FishDex.Pages;
                 return Page();
             }
 
-            _context.Fish.Remove(NewFish);
-            _context.SaveChanges();
+            if (NewFish != null)
+            {
+                _context.Fish.Remove(NewFish);
+                _context.SaveChanges();
+            }
 
             return RedirectToPage("/Index");
         }

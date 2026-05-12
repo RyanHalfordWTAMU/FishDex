@@ -23,6 +23,12 @@ namespace FishDex.Pages
                 return Page();
             }
 
+            if (NewFish is null)
+            {
+                ModelState.AddModelError(string.Empty, "Fish data is required.");
+                return Page();
+            }
+
             _context.Fish.Add(NewFish);
             _context.SaveChanges();
 

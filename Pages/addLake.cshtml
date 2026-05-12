@@ -1,0 +1,20 @@
+@page
+@model addLakeModel
+@{
+    ViewData["Title"] = "Add Lake";
+}
+<h1>Add Lake</h1>
+<form method="post">
+    <div class="form-group">
+        <label asp-for="NewLake.lakeName"></label>
+        <input asp-for="NewLake.lakeName" class="form-control" />
+        <span asp-validation-for="NewLake.lakeName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="NewLake.NearestTown"></label>
+        <input asp-for="NewLake.NearestTown" class="form-control" />
+        <span asp-validation-for="NewLake.NearestTown" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Add Lake</button>
+    
+</form>

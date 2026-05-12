@@ -138,7 +138,6 @@ C:\Users\ryanh\Desktop\School\CIDM3312 BusProgramming\Final Project\FishDex\obj\
 C:\Users\ryanh\Desktop\School\CIDM3312 BusProgramming\Final Project\FishDex\obj\Debug\net10.0\scopedcss\bundle\FishDex.styles.css
 C:\Users\ryanh\Desktop\School\CIDM3312 BusProgramming\Final Project\FishDex\obj\Debug\net10.0\scopedcss\projectbundle\FishDex.bundle.scp.css
 C:\Users\ryanh\Desktop\School\CIDM3312 BusProgramming\Final Project\FishDex\obj\Debug\net10.0\compressed\2tg39rfn4b-{0}-b9sayid5wm-b9sayid5wm.gz
-C:\Users\ryanh\Desktop\School\CIDM3312 BusProgramming\Final Project\FishDex\obj\Debug\net10.0\compressed\zngmwutvls-{0}-61n19gt1b8-61n19gt1b8.gz
 C:\Users\ryanh\Desktop\School\CIDM3312 BusProgramming\Final Project\FishDex\obj\Debug\net10.0\compressed\ll8fbp3cy3-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
 C:\Users\ryanh\Desktop\School\CIDM3312 BusProgramming\Final Project\FishDex\obj\Debug\net10.0\compressed\yu8q5y00ta-{0}-bqjiyaj88i-bqjiyaj88i.gz
 C:\Users\ryanh\Desktop\School\CIDM3312 BusProgramming\Final Project\FishDex\obj\Debug\net10.0\compressed\uu9v7vqlsa-{0}-c2jlpeoesf-c2jlpeoesf.gz
@@ -212,3 +211,5 @@ C:\Users\ryanh\Desktop\School\CIDM3312 BusProgramming\Final Project\FishDex\obj\
 C:\Users\ryanh\Desktop\School\CIDM3312 BusProgramming\Final Project\FishDex\obj\Debug\net10.0\FishDex.pdb
 C:\Users\ryanh\Desktop\School\CIDM3312 BusProgramming\Final Project\FishDex\obj\Debug\net10.0\FishDex.genruntimeconfig.cache
 C:\Users\ryanh\Desktop\School\CIDM3312 BusProgramming\Final Project\FishDex\obj\Debug\net10.0\ref\FishDex.dll
+C:\Users\ryanh\Desktop\School\CIDM3312 BusProgramming\Final Project\FishDex\obj\Debug\net10.0\FishDex.sourcelink.json
+C:\Users\ryanh\Desktop\School\CIDM3312 BusProgramming\Final Project\FishDex\obj\Debug\net10.0\compressed\sv2yuma1rx-{0}-uacbvpz2x0-uacbvpz2x0.gz
