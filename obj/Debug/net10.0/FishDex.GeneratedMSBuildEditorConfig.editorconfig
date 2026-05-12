@@ -34,8 +34,16 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRkQ2F0Y2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/ryanh/Desktop/School/CIDM3312 BusProgramming/Final Project/FishDex/Pages/addLake.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRkTGFrZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ryanh/Desktop/School/CIDM3312 BusProgramming/Final Project/FishDex/Pages/deleteCatch.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZGVsZXRlQ2F0Y2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ryanh/Desktop/School/CIDM3312 BusProgramming/Final Project/FishDex/Pages/deleteLake.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZGVsZXRlTGFrZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ryanh/Desktop/School/CIDM3312 BusProgramming/Final Project/FishDex/Pages/Error.cshtml]
