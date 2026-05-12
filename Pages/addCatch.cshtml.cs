@@ -1,0 +1,32 @@
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using Models;
+
+namespace FishDex.Pages
+{
+
+    public class addCatchModel(FishDBContext context) : PageModel
+    {
+        private readonly FishDBContext _context = context;
+
+        [BindProperty]
+        public Fish? NewFish { get; set; }
+
+        public void OnGet()
+        {
+        }
+
+        public IActionResult OnPost()
+        {
+            if (!ModelState.IsValid)
+            {
+                return Page();
+            }
+
+            _context.Fish.Add(NewFish);
+            _context.SaveChanges();
+
+            return RedirectToPage("/Index");
+        }
+    }
+}

@@ -1,0 +1,23 @@
+@page
+@model addCatchModel
+@{
+    ViewData["Title"] = "Add Catch";
+}
+<h1>Add Catch</h1>
+<form method="post">
+    <div class="form-group">
+        <label asp-for="NewFish.Species"></label>
+        <input asp-for="NewFish.Species" class="form-control" />
+        <span asp-validation-for="NewFish.Species" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="NewFish.Bait"></label>
+        <input asp-for="NewFish.Bait" class="form-control" />
+        <span asp-validation-for="NewFish.Bait" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="NewFish.weight"></label>
+        <input asp-for="NewFish.weight" class="form-control" />
+        <span asp-validation-for="NewFish.weight" class="text-danger"></span>
+    <button type="submit" class="btn btn-primary">Add Catch</button>
+</form>

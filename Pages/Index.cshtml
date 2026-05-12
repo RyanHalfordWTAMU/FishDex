@@ -1,0 +1,30 @@
+﻿@page   
+@using Models
+@model FishDex.Pages.IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<table class="table">
+    <a asp-page="addCatch">addCatch</a>
+    <thead>
+        <tr>
+            <th>Species</th>
+            <th>Bait</th>
+            <th>Weight lb</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var fish in Model.FishList)
+        {
+            <tr>
+                <td>@fish.Species</td>
+                <td>@fish.Bait</td>
+                <td>@fish.weight</td>
+                <td>
+                    <a asp-page="./deleteCatch" asp-route-id="@fish.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
